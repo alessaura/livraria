@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect } from "react"; 
 import { Link, useNavigate, useParams } from "react-router-dom"; 
 
-function UpdateAutor() { 
+function UpdateAutors() { 
     const { id } = useParams(); 
     const [autor, setAutor] = useState({ 
         nome: "", 
@@ -77,4 +77,4 @@ function UpdateAutor() {
     ); 
 } 
 
-export default UpdateAutor; 
+export default UpdateAutors; 

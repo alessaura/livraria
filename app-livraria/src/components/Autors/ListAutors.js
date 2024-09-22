@@ -32,7 +32,7 @@ const ListAutors = () => {
 
     return (
         <div className="container">
-            <h2 className='w-100 d-flex justify-content-center p-3'>Listando Autors</h2>
+            <h2 className='w-100 d-flex justify-content-center p-3'>Listando Autores</h2>
             <div className='row'>
                 <div className='col-md-12'>
                     <p><Link to="/addAutor" className="btn btn-success">Adicionar novo Autor</Link></p>
@@ -70,4 +70,4 @@ const ListAutors = () => {
     );
 }
 
-export default ListAutor;
+export default ListAutors;
